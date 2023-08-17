@@ -1,0 +1,127 @@
+body {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+/* Nab Menu Section Style  */
+  .nav-menu{
+    margin: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logo{
+    width: 80px;
+  }
+
+  /* Search Bar Section Style Start  */
+  .search-bar{
+    position: relative;
+  }
+  .search-bar-img{
+    position: absolute;
+    padding: 10px;
+    margin-top: 3px;
+    margin-left: 110px;
+    color: white;
+    transform: rotate(260deg);
+   
+    
+  }
+  ::placeholder{
+    color: white;
+    padding-left: 30px;
+  }
+  .search-bar-input{
+    color: white;
+    background: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    outline: none;
+    width: 150px;
+    height: 40px;
+  }
+    /* Search Bar Section Style End  */
+
+
+
+     /* Main Style Section Start  */
+
+    .background-text-img > img{
+        position: absolute;
+        margin-bottom: 0;
+        margin-left: 140px;
+        width: 80%;
+    }
+
+
+   
+    .text-info-box{
+        width: 40%;
+        margin-left: 25px;
+    }
+    .header-text{
+        text-transform: uppercase;
+    }
+    .header-style-text{
+        color:#FF9900;
+    }
+    
+
+
+  .character-info-container{
+    position: relative;
+    display: flex;
+    height: calc(100vh -80px);
+    justify-content: space-around;
+    padding: 30px;
+    top: 70px;
+    color: white;
+  }  
+
+  .character-img img{
+    width: 500px;
+    height: 400px;
+  }
+
+  .btn1{
+    background-color: rgb(41, 36, 36);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .btn2{
+    background-color: #D42828;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    margin-left:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  /* Main Style Section End  */
+
+
+  /* Nav Section Hover Style */
+
+  .nav-menu h4:hover {
+    color: #ff0101;
+    transform: scale(1.2);
+    text-shadow: none;
+  }
+
+  /* Button Section Hover Style */
+  .btn-section button:hover{
+    color: rgb(255, 115, 0);
+    text-shadow: rgb(0, 0, 0);
+  }
